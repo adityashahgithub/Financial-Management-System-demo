@@ -1,0 +1,117 @@
+/*logo */
+.logo-container
+{
+      position: absolute; /* Position relative to the viewport */
+      top: 20px;         /* Distance from the top */
+      left: 20px;        /* Distance from the left */
+}
+.logo-container img 
+{
+      width: 200px;      /* Adjust the size as needed */
+      height: auto;      /* Maintain aspect ratio */
+      margin: 0pc;
+}
+.header 
+{
+    display: flex;
+    align-items:center; /* Vertically aligns items in the center */
+    position: absolute;
+    top: 40px;
+    left: 200px;
+}
+/* body */
+body 
+{
+        font-family: Arial, sans-serif;
+        background-color: black; /* Change background color to black */
+        color: white; /* Change text color to white for better readability */
+        margin: 0%;
+    }
+/* Tagline Section */
+.tagline-section 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh; /* Adjust height to control vertical positioning */
+    padding-left: 50px; /* Padding from the left */
+    color: #ffffff; /* White text color */
+    text-align: left; /* Aligns text to the left */
+    margin: 0%;
+}
+
+.tagline-section h1 
+{
+    font-size: 3rem; /* Big font for the first line */
+    font-weight: bold;
+    margin-bottom: 0px; /* Spacing between lines */
+}
+
+
+/* Paragraph Section */
+.paragraph-section 
+{
+    margin-top: 0; /* No extra space above the paragraph */
+    padding-left: 50px; /* Align content to the left */
+    color: #ffffff; /* Text color (white) */
+    text-align: left; /* Ensure left alignment */
+}
+
+.paragraph-section p 
+{
+    font-size: 1.2rem; /* Font size for readability */
+    line-height: 1.8; /* Line spacing for clarity */
+    max-width: 600px; /* Restrict width for better readability */
+    margin: 0; /* Remove default margins */
+}
+/* Button Section */
+.button-section 
+{
+    margin-top: 20px; /* Add some space above the button */
+    padding-left: 50px; /* Align button with paragraph */
+}
+
+/* Get Started Button */
+.get-started-btn 
+{
+    background: linear-gradient(90deg, #b3f57d, #54d3be); /* Green gradient background */
+    border: none; /* Remove border */
+    border-radius: 25px; /* Rounded edges */
+    color: #ffffff; /* White text color */
+    font-size: 1.2rem; /* Adjust font size */
+    font-weight: bold; /* Bold text */
+    padding: 10px 25px; /* Button padding */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    box-shadow: 0 4px 6px rgb(255, 255, 255); /* Subtle shadow effect */
+}
+/* Hover Effect */
+.get-started-btn:hover 
+{
+    transform: scale(1.05); /* Slightly enlarge button */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4); /* Increase shadow on hover */
+}
+
+/* Navigation Bar */
+.navbar 
+{
+    width: 100%; /* Full width of the page */
+    /*background-color: black;  Black background */
+    text-align: center; /* Center the navigation items */
+    padding: 70px 0; /* Add padding on top and bottom */
+    position: fixed; /* Make the navbar fixed at the top */
+    top: 0;
+    left: 10;
+    z-index: 1000; /* Ensure navbar stays on top */
+}
+
+
+
+/* Hover Effect for Links */
+.navbar ul li a:hover 
+{
+    color: aquamarine; /* Change color on hover */
+}
+
+
+
