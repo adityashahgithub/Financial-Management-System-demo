@@ -1,0 +1,153 @@
+/* Reset margin and padding */
+body 
+{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+/* Style for the logo */
+.logo 
+{
+    position: fixed; /* Keeps the logo in the top-left even when scrolling */
+    top: 0px; /* Adjust distance from the top */
+    left: 0px; /* Adjust distance from the left */
+    width: 200px; /* Adjust to make the logo small */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+/* Navbar container */
+.navbar 
+{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    position: fixed;
+    top: 50px; /* Adjust this value to bring the navbar down */
+    width: 100%;
+    z-index: 100;
+}
+
+/* Horizontal nav list */
+.nav-list 
+{
+    list-style: none;
+    display: flex;
+    gap: 30px; /* Space between menu items */
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav links */
+.nav-list li a 
+{
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect on links */
+.nav-list li a:hover 
+{
+    background-color: aquamarine;
+    border-radius: 5px;
+    color: #333; /* Change text color on hover */
+}
+
+/* Dropdown container */
+.dropdown 
+{
+    position: relative; /* To position the dropdown menu */
+}
+
+/* Dropdown menu (hidden by default) */
+.dropdown-menu 
+{
+    display: none;
+    position: absolute;
+    top: 35px; /* Position it below the "Services" item */
+    left: 0;
+    background-color: white;
+    color: #333;
+    padding: 10px;
+    list-style: disc; /* Adds bullet points */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 200;
+}
+
+/* Dropdown items */
+.dropdown-menu li 
+{
+    margin: 5px 0;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-menu 
+{
+    display: block;
+}
+
+/* Dropdown menu hover effect */
+.dropdown-menu li:hover 
+{
+    color: black;
+    background-color:aquamarine;
+}
+/*BUTTON SIGN UP AND SIGN IN*/
+.button-container
+ {
+    display: flex;
+    position: relative;
+  }
+  
+  .sign-up, .sign-in 
+  {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  .sign-up 
+  {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .sign-in 
+  {
+    background-color: aquamarine; /* Adjust color as needed */
+    color: black;
+    margin-left: 10px; /* Add margin to separate buttons */
+  }
+  
+
+  .sign-up:hover 
+  {
+    background-color: aquamarine;
+    color: black;
+  }
+
+  .sign-in:hover 
+  {
+    background-color:white;
+    color: black;
+    margin-left: 10px;
+
+  }
+
+
+
+
+
+
