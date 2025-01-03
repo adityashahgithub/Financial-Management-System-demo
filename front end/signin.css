@@ -19,7 +19,7 @@ body
     padding: 40px 50px;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(48, 118, 122, 0.2);
-    text-align: center;
+    text-align: left;
     max-width: 400px;
   }
   
@@ -55,6 +55,8 @@ body
     color: black;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
+    text-align: center;
+    margin-left: 80px;
   }
   
   .login-btn:hover 

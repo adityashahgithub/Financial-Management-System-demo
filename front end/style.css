@@ -9,7 +9,7 @@ body
 /* Style for the logo */
 .logo 
 {
-    position: fixed; /* Keeps the logo in the top-left even when scrolling */
+    position: absolute; /* Keeps the logo in the top-left even when scrolling */
     top: 0px; /* Adjust distance from the top */
     left: 0px; /* Adjust distance from the left */
     width: 200px; /* Adjust to make the logo small */
@@ -23,10 +23,12 @@ body
     display: flex;
     justify-content: center;
     padding: 10px 0;
-    position: fixed;
-    top: 50px; /* Adjust this value to bring the navbar down */
+    top: 20rem; /* Adjust this value to bring the navbar down */
     width: 100%;
-    z-index: 100;
+    /*z-index: 100;*/
+    padding-left: 100px;
+    padding-top: 50;
+    font-size: 6rem;
 }
 
 /* Horizontal nav list */
@@ -116,6 +118,8 @@ body
     font-size: 16px;
     font-weight: bold;
     font-family:'Times New Roman', Times, serif;
+    margin-left: 100px;
+    border-radius: 50px;
   }
   
   .sign-up 
@@ -151,11 +155,11 @@ body
     width: 500px;
     height: auto;
     padding-right: 100px;
-    padding-top: 100px;
+   
 }
 h1
 { 
-  padding-top: 250px;
+  padding-top: 40px;
   color: #fff;
   padding-left: 50px;
   font-size: 50px;
