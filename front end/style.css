@@ -153,7 +153,7 @@ body
     float: right;
     margin-left: 100px;
     width: 500px;
-    height: auto;
+    height:auto;
     padding-right: 100px;
    
 }
@@ -175,7 +175,7 @@ p
   background: linear-gradient(to right, #e0f7fa, #80cbc4);
   border: none;
   color: black;
-  padding: 10px 30px;
+  padding: 20px 40px;
   
   font-size: 20px;
   font-family: 'Times New Roman', serif;
@@ -195,19 +195,83 @@ p
 
 h2
 {
-  padding-top: 40px;
+  padding-top: 120px;
   color: #fff;
   padding-left: 60px;
   font-size: 40px;
+  text-align: center;
 }
 .aquamarine-rectangle {
   padding-top: 50px;
-  width: 200%;
-  height: 500%;
+  width: 50%;
+  height: 10rem;
   background-color: aquamarine;
   border-radius: 25px;
 }
+p1
+{
+  text-align: right;
+   padding-top: 0;
+   color: #000;
+}
+.Learn-More{
+  background: linear-gradient(to right, #e0f7fa, #80cbc4);
+  border: none;
+  color: black;
+  padding: 20px 40px;
+  font-size: 20px;
+  font-family: 'Times New Roman', serif;
+  font-weight: bold;
+  border-radius: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-left: 600px;
+  
+}
 
+.Learn-More:hover {
+  background: linear-gradient(to right, #80cbc4, #e0f7fa);
+  transform: scale(1.05);
+}
+h3
+{
+  padding-top: 5px;
+  color: #fff;
+  padding-left: 300px;
+  font-size: 40px;
+  text-align:left ;
+  
+}
+.Register-Now{
+  background: linear-gradient(to right, #e0f7fa, #80cbc4);
+  border: none;
+  color: black;
+  padding: 20px 40px;
+  font-size: 20px;
+  font-family: 'Times New Roman', serif;
+  font-weight: bold;
+  border-radius: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-left: 600px;
+  
+}
+
+.Register-Now:hover {
+  background: linear-gradient(to right, #80cbc4, #e0f7fa);
+  transform: scale(1.05);
+}
+.phonemockup2
+{
+  float: right;
+  margin-left: 100px;
+  width: auto;
+  height:auto;
+  padding-right: 100px;
+
+}
 
 
 
