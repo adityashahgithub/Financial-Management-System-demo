@@ -14,11 +14,11 @@
     <form>
       <div class="form-group">
         <div>
-          <label for="first-name">First Name :</label><br>
+          <label for="first-name">First Name:</label><br>
           <input type="text" id="first-name" name="first-name" placeholder="Enter your first name" required>
         </div>
         <div>
-          <label for="last-name">Last Name :</label><br>
+          <label for="last-name">Last Name:</label><br>
           <input type="text" id="last-name" name="last-name" placeholder="Enter your last name" required>
         </div>
       </div>
@@ -27,9 +27,15 @@
         <label for="email">Email:</label><br>
         <input type="email" id="email" name="email" placeholder="Enter your email" required>
       </div><br>
-      <button type="submit" class="signup-btn">Sign in</button>
+      <button type="submit" class="signup-btn">Sign Up</button>
     </form>
-    
+
+    <!-- Already have an account section -->
+    <div class="already-account">
+      <p>Already have an account? 
+        <button class="signin-btn" onclick="window.location.href='signin.html';">Sign In</button>
+      </p>
+    </div>
   </div>
 </body>
 </html>

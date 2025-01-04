@@ -71,5 +71,27 @@ body {
     transform: scale(1.05);
   }
   
-  /* Decorative Circle */
-  
+  /* "Already have an account?" Section */
+.already-account {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 25px;
+  color: white;
+}
+
+.signin-btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 20px;
+  background: linear-gradient(to right, #90caf9, #ffffff);
+  color: black;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.signin-btn:hover {
+  background: linear-gradient(to right, #ffffff, #90caf9);
+  transform: scale(1.1);
+}

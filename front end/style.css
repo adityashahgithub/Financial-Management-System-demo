@@ -220,8 +220,8 @@ h2
 .aquamarine-rectangle 
 {
   padding: 20px;
-  width: 90%;
-  height: 14rem;
+  width: 50rem;
+  height: 10rem;
   background-color: aquamarine;
   border-radius: 25px;
   right: 0rem;
@@ -258,7 +258,7 @@ p1
   justify-content: center;
   cursor: pointer;
   transition: all 0.3s ease;
-  margin-left: 650px;
+  margin-right: 20px;
 }
 
 .Learn-More:hover {
