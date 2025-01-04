@@ -1,0 +1,153 @@
+diff --git a/front end/home.html b/front end/home.html
+index 0affc5f..1b842fc 100644
+--- a/front end/home.html	
++++ b/front end/home.html	
+@@ -34,20 +34,28 @@
+     </div>
+     
+     <img src="homemockup.png" alt="Phone Mockup" class="right-img">
+-   <div>
++   <div class="first">
+     <h1>Track, Plan, Predict – <br><span style="color: aquamarine;">All-in-One </span><br> Finance Tool</h1>
+     <p>Your all-in-one financial companion, designed to simplify money management and empower smarter decisions. Track your expenses, plan your budget, and gain insights into city-specific living costs with our AI-driven tools. Whether you’re saving for the future or optimizing daily spending, Fiscal Point puts you in control of your financial journey.</p>
+     <button class="get-started">Get Started</button>
+ </div>
+-<div>
+-<h2> <span style="color: aquamarine;"> Track & Plan</span><br> your monthly spending</h2>
+- <!-- <img src="phonemockup2.jpeg" alt="phonemockup2" class="phonemockup2"> -->
+-<p class="aquamarine-rectangle"><span style="color: black;">Effortlessly review your transactions, monitor your spending trends by category, and receive tailored monthly insights designed to transform the way you understand and manage your finances. Our unique, AI-driven analytics not only help you uncover hidden spending patterns but also provide actionable tips to improve your financial health.</span></p>
+-<button class="Learn-More">Learn More</button>
++
++<div class="outer">
++    <div>
++        <img src="phonemockup2.jpeg" alt="phonemockup2" class="phonemockup2">
++    </div>
++    <div class="inner">
++        <h2> <span style="color: aquamarine;"> Track & Plan</span><br> your monthly spending</h2>
++        <p class="aquamarine-rectangle"><span style="color: black;">Effortlessly review your transactions, monitor your spending trends by category, and receive tailored monthly insights designed to transform the way you understand and manage your finances. Our unique, AI-driven analytics not only help you uncover hidden spending patterns but also provide actionable tips to improve your financial health.</span></p>
++        <div>
++            <button class="Learn-More">Learn More</button>
++        </div>
++    </div>
++</div>
+ <h3>Calculate <br><span style="color: aquamarine;">Cost of living </span><br>City wise</h3>
+  <p style="color: black;" class="aquamarine-rectangle">Easily estimate your monthly expenses and compare living costs across cities and countries. Get detailed breakdowns of housing, transportation, food, and more to make informed decisions. Whether you're relocating, budgeting, or planning a trip, our tool helps you prepare with real-time, accurate data tailored to your lifestyle. Start planning smarter today!</p>
+  <button class="Register-Now">Register Now</button>
+-</div>
++
+ <div class="profile-logo">
+     <a href="dashboard.html"><img src="profile.png" alt="Profile Logo" ></a>
+ </body>
+diff --git a/front end/style.css b/front end/style.css
+index 74b8c25..146ced3 100644
+--- a/front end/style.css	
++++ b/front end/style.css	
+@@ -6,6 +6,23 @@ body
+     background-color: black;
+ }
+ 
++.first {
++  height:max-content;
++  width: fit-content;
++}
++
++.outer {
++  display: flex;
++  margin-top: 100px;
++  justify-content: space-between;
++  gap: 20px;
++}
++
++.phonemockup2 {
++  margin-top: 100px;
++  height: 400px;
++}
++
+ /* Style for the logo */
+ .logo 
+ {
+@@ -202,13 +219,13 @@ h2
+   text-align: center;
+ }
+ .aquamarine-rectangle {
+-  padding-top: 20px;
+-  width: 60%;
+-  height: 10rem;
++  padding: 20px;
++  width: 90%;
++  height: 14rem;
+   background-color: aquamarine;
+   border-radius: 25px;
+   right: 0rem;
+-    
++  margin-left: 20px;
+   
+ }
+ p1
+@@ -227,6 +244,7 @@ p1
+   font-weight: bold;
+   border-radius: 30px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
++  justify-content: center;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   margin-left: 600px;
+@@ -266,7 +284,7 @@ h3
+   background: linear-gradient(to right, #80cbc4, #e0f7fa);
+   transform: scale(1.05);
+ }
+-/*.phonemockup2
++.phonemockup2
+ {
+   float: right;
+   margin-left: 100px;
+@@ -274,7 +292,7 @@ h3
+   height:auto;
+   padding-right: 100px;
+ 
+-}*/
++}
+ .profile-logo {
+   position: absolute; /* Positioned relative to the viewport */
+   top: 65px; /* Adjust the distance from the top */
+@@ -293,3 +311,39 @@ h3
+ }
+ 
+ 
++body {
++  margin: 0;
++  padding: 0;
++  background-color: black;
++  overflow-x: hidden; /* Disable horizontal scrolling */
++  overflow-y: auto; /* Enable vertical scrolling */
++}
++
++
++.outer {
++  display: flex;
++  align-items: center; /* Align items vertically */
++  justify-content: space-between; /* Space between image and text */
++  gap: 50px; /* Add spacing */
++  margin: 50px auto; /* Center the container vertically with some margin */
++  max-width: 1200px; /* Limit the width of the container */
++}
++
++.phonemockup2 {
++  height: auto;
++  width: 400px; /* Set a fixed width for consistency */
++  margin-left: 50px; /* Adjust spacing from the left */
++}
++
++.outer div:last-child {
++  text-align: left;
++  color: white;
++  max-width: 600px; /* Limit width for better readability */
++}
++
++.inner {
++  display: flex;
++  flex-direction: column;
++  justify-items: center;
++  align-items: center;
++}
+\ No newline at end of file
