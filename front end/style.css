@@ -193,6 +193,20 @@ p
   transform: scale(1.05);
 }
 
+h2
+{
+  padding-top: 40px;
+  color: #fff;
+  padding-left: 60px;
+  font-size: 40px;
+}
+.aquamarine-rectangle {
+  padding-top: 50px;
+  width: 200%;
+  height: 500%;
+  background-color: aquamarine;
+  border-radius: 25px;
+}
 
 
 
