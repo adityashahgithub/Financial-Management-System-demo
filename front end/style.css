@@ -71,7 +71,7 @@ body
 .nav-list li a:hover 
 {
     background-color: aquamarine;
-    border-radius: 5px;
+    border-radius: 40px;
     color: #333; /* Change text color on hover */
 }
 
@@ -86,7 +86,7 @@ body
 {
     display: none;
     position: absolute;
-    top: 35px; /* Position it below the "Services" item */
+    top: 100px; /* Position it below the "Services" item */
     left: 0;
     background-color: white;
     color: #333;
@@ -102,8 +102,10 @@ body
 .dropdown-menu li 
 {
     margin: 5px 0;
-    font-size: 20px;
+    font-size: 22px;
     cursor: pointer;
+    white-space: nowrap;
+    border-bottom: 1px solid #ddd;
 }
 
 /* Show dropdown on hover */
@@ -117,6 +119,18 @@ body
 {
     color: black;
     background-color:aquamarine;
+}
+
+/* Add transition and rotate to arrow */
+.arrow {
+  display: inline-block; /* Ensure proper inline display */
+  font-size: 16px;
+  transition: transform 0.3s ease; /* Smooth transition for rotation */
+}
+
+/* Rotate arrow on hover of parent .dropdown */
+.dropdown:hover .arrow {
+  transform: rotate(180deg);
 }
 /*BUTTON SIGN UP AND SIGN IN*/
 .button-container
@@ -236,7 +250,7 @@ h2
   background-color: aquamarine;
   border-radius: 25px;
   right: 0rem;
-  margin-left: 20px;
+  margin-left: 50px;
 }
 p1
 {
