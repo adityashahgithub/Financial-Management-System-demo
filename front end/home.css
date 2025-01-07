@@ -242,7 +242,7 @@ h2
   margin-left: 20px;
 }
 
-.rectangleleft
+.rectangleleft3
 {
   padding: 20px;
   width: 50%;
@@ -251,7 +251,7 @@ h2
   border-radius: 25px;
   margin-left: 0; /* Ensures no extra spacing on the left */
   margin-right: 0;
-  
+  margin-bottom: 100rem;
 }
 p1
 {
@@ -365,7 +365,8 @@ body {
   max-width: 600px; /* Limit width for better readability */
 }
 
-.rectangleright {
+.rectangleright 
+{
   display: flex;
   flex-direction: column;
   justify-items: center;
@@ -376,6 +377,5 @@ body {
   height: auto;
   padding-top: 5rem;
   width: 400px; /* Set a fixed width for consistency */
-  margin-right: 100rem; 
-
+  margin-left: 1000px;
 }
